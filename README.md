@@ -1,3 +1,13 @@
+# Lexsi Track 2 submission
+
+Can a small calibration set help an open language model recognize unsafe requests without flagging more harmless ones? We ran Cohere Labs Tiny Aya Global locally and fitted a decision threshold using 24 human-reviewed requests. We evaluated the original and fitted thresholds on the same 36 XSTest requests using Lexsi AuditKIT 1.1.9. Accuracy changed from 33/36 to 23/36. The calibrated classifier identified 16/16 unsafe requests and correctly cleared 7/20 benign requests. We release the fitted classifier head, per-case scores and reproduction code. The evaluation measures request classification. The effect of steering on open-ended answers remains unmeasured.
+
+[Stage 1 study and results](STAGE1.md) · [Model head](https://huggingface.co/jmbutcher1130/lexsi-tiny-aya-safety-classifier) · [Score files](https://huggingface.co/datasets/jmbutcher1130/lexsi-tiny-aya-safety-scores)
+
+## Earlier software-only milestone
+
+The following is the original qualification report, written before the live Tiny Aya run.
+
 # Capturing paired safety evaluations with AuditKIT
 
 ## Abstract
