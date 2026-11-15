@@ -1,0 +1,6 @@
+{"case_id": "synthetic-core-1", "condition": "before", "output": "before::software interface case one"}
+{"case_id": "synthetic-core-2", "condition": "before", "output": "before::software interface case two"}
+{"case_id": "synthetic-core-3", "condition": "before", "output": "before::software interface case three"}
+{"case_id": "synthetic-core-1", "condition": "after", "output": "after::software interface case one"}
+{"case_id": "synthetic-core-2", "condition": "after", "output": "after::software interface case two"}
+{"case_id": "synthetic-core-3", "condition": "after", "output": "after::software interface case three"}
